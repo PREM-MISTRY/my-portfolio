@@ -21,10 +21,10 @@ export default function ProjectCarouselItem({
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={assetPrefix ? assetPrefix + imgSrc : imgSrc}
-        className="d-block w-100"
+        className="d-block"
         alt={title || "project image"}
         style={{
-          borderRadius: "3vw 3vw 0 0",
+          borderRadius: "3vw 3vw 0 0",aspectRatio:"1/1"
         }}
       />
       <div

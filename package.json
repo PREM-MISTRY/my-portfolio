@@ -1,0 +1,25 @@
+{
+  "name": "fiverr-prem-1404-formula3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export -o docs/",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy-dev": "npm run build && git add . && git commit -m \"Add updated build.\" && git push origin main"
+  },
+  "dependencies": {
+    "@mantine/hooks": "^4.2.1",
+    "@react-hook/window-scroll": "^1.3.0",
+    "@react-hook/window-size": "^3.0.7",
+    "bootstrap": "^5.1.3",
+    "next": "12.1.5",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5"
+  }
+}

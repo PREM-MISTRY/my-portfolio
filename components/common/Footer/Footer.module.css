@@ -1,0 +1,12 @@
+.cardsRow {
+  width: 75%;
+  position: relative;
+  left: 5.4%;
+}
+
+@media (max-width: 992px) {
+  .cardsRow {
+    max-width: 18rem;
+    left: 0;
+  }
+}

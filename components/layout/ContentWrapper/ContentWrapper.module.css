@@ -1,0 +1,7 @@
+.outer {
+  width: 100vw;
+}
+
+.inner {
+  max-width: 1686px;
+}

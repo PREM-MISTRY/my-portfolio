@@ -1,0 +1,28 @@
+.main {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.heading {
+  left: -0.3vw;
+}
+
+.headingBg {
+  left: -5.2vw;
+}
+
+@media (max-width: 992px) {
+  .heading {
+    left: -2.2vw;
+  }
+
+  .headingBg {
+    left: -2.2vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 8rem 0 2rem;
+  }
+}

@@ -1,0 +1,70 @@
+.main {
+  display: block;
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.profile {
+  text-align: right;
+  position: relative;
+  right: 1vw;
+  bottom: 1vw;
+  transition-duration: 0.25s;
+}
+
+.profile:hover {
+  right: 0;
+  bottom: 0;
+}
+
+.profileBorder {
+  border: 0.5vw solid rgb(var(--accent-1));
+  position: relative;
+  width: 25vw;
+  float: right;
+}
+
+.right {
+  font-weight: 400;
+  font-size: 1.5vw;
+  line-height: 1.8vw;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .main {
+    display: flex;
+    align-items: center;
+  }
+
+  .profileBorder {
+    float: none;
+    margin: 8.5rem auto 0;
+  }
+
+  .right {
+    max-width: 30rem;
+    margin: 2rem auto 0;
+    font-size: 2.1vw;
+    line-height: 2.2vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .profileBorder {
+    margin: 18vw auto 0;
+  }
+  .right {
+    font-size: 3vw;
+    line-height: 3.4vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .right {
+    font-size: 4vw;
+    line-height: 4.4vw;
+  }
+}

@@ -1,0 +1,35 @@
+/* Navbar */
+.navbar {
+  padding: 1rem 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(50px);
+}
+
+.navbarInner {
+  background-color: inherit;
+}
+
+.brand {
+  padding-left: 16px;
+  font-size: 30px;
+}
+
+.brand,
+.brand span {
+  color: rgb(var(--accent-1));
+}
+
+.brand span {
+  font-weight: 600;
+}
+
+.link {
+  color: rgb(var(--primary-color));
+}
+
+.brand:hover,
+.brand:focus,
+.link:hover,
+.link:focus {
+  color: rgb(var(--accent-1));
+}

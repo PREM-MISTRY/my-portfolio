@@ -1,0 +1,82 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "League Spartan", -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: 255, 255, 255;
+  --primary-background-color: 35, 35, 35;
+  --accent-1: 144, 224, 239;
+  --accent-2: 0, 119, 182;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+[id]::before {
+  content: "";
+  display: block;
+  height: 32px;
+  margin-top: -32px;
+  visibility: hidden;
+}
+
+hr {
+  background-color: black;
+  height: 1px;
+  border: 0;
+}
+
+* {
+  box-sizing: border-box;
+  color: rgba(var(--primary-color), 1);
+  background-color: rgba(var(--primary-background-color), 1);
+}
+
+.bg-accent-1 {
+  background-color: rgb(var(--accent-1));
+}
+
+.tt-uppercase {
+  text-transform: uppercase;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:last-child {
+  padding-right: 0px;
+  padding-left: 22px;
+}
+
+.offcanvas-header .btn-close {
+  margin-bottom: 0px;
+}
+
+.highlight {
+  color: rgb(var(--accent-1));
+}
+
+@media (max-width: 992px) {
+  #projectsCarousel {
+    margin-top: 8rem;
+  }
+}
+
+.clickable:hover {
+  cursor: pointer;
+}

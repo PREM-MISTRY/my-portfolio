@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  align-items: center;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .container {
+    min-height: min-content;
+    height: min-content;
+    max-height: min-content;
+  }
+}

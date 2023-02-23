@@ -1,0 +1,45 @@
+.main {
+  max-width: 75vw;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #363636;
+  height: 100%;
+}
+
+.cardTitle {
+}
+
+.cardBody {
+}
+
+.workHeading {
+  text-align: center;
+  color: rgb(var(--accent-1));
+  margin: 1rem 0 0rem;
+}
+
+.headingBg {
+  left: -4.4vw;
+}
+
+.heading {
+  left: -3.2vw;
+}
+
+@media (max-width: 992px) {
+  .headingBg {
+    left: -1.4vw;
+  }
+
+  .heading {
+    left: -1.6vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    margin: 6rem auto;
+  }
+}
